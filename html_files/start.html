@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title> Squid Proxy: Getting Started </title>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">CSI-3660 Squid Proxy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="overview.html">Project Overview</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="members.html">Group Members</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="demo.html">Project Demonstration</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="start.html">Getting Started</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <h1>Getting Started</h1>
+        <p class="lead">A guide for how users can start utilizing our proxy service.</p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Windows 10 and macOS Instructions
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>A. Download our client certificate by clicking here:</b> <a href="common/myCA.der">myCA.der</a></li>
+                        <li class="list-group-item"><b>B. Open your Firefox browser settings and navigate to the URL seen in the image, then click on the "View Certificates..." button to open the Certificate Manager window as seen below:</b> <br><br><img src="common/Win10_firefox_import_CA_step1.png"></li>
+                        <li class="list-group-item"><b>C. Click the "Import..." button and browse for your certificate you downloaded and select both Trust </b><br><br><img src="common/Both_ImportCA_Trust.png"></li>
+                        <li class="list-group-item"><b>D. Once the certificate is imported, you should see an entry like the one below in your Certificate Manger: </b><br><br><img src="common/Win10_firefox_import_CA_step2_success.png"></li>
+                        <li class="list-group-item"><b>E-Windows 10: Go to Network and Internet settings in Windows and click on Proxy on the left-hand side. Enter the following information as seen in in this image:</b><br><br><img src="common/Win10_Proxy_Settings.png"></li>
+                        <li class="list-group-item"><b>E-macOS: Go to System Preferences, Network settings, Advanced. Enter the following information as seen in in this image:</b><br><br><img src="common/macOS_Proxy_Settings.png"></li>
+                        <li class="list-group-item"><b>F. Now, when you visit any website except those in your local network, you should see our Certificate Authority name in the <i>Verified by: </i> field. </b><br><br><img src="common/Win10_Proxy_CA_Info_Success.png"></li>
+                        <li class="list-group-item"><b>G. Note: be sure click on the Lock icon in the URL bar when you request a blacklisted site to get the full experience of our custom error page! </b><br><br><img src="common/Win10_BlockedWebsite_AllowSound.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    <footer class="page-footer font-medium blue fixed-bottom">
+        <div class="footer-copyright text-center pg-3 bg-primary text-white">
+            © Copyright 2019 Sal Trupiano, Travis Thayer, All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
