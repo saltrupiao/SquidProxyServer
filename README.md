@@ -16,7 +16,6 @@ Design and implementation of the service information webpage was by Sal Trupiano
 Configuration files that are cusomized are located in the "common" folder.
 The following script files in the "common" folder have been customized:
 - ERR_CUSTOMPAGE.html (custom error page for Squid content filtering)
-- direct.xml (sets HTTP firewall rules for specific ethernet interface of the server)
 - httpd.conf (customized Apache configuration file)
 - myCA.der (custom-generated root certificate authority file for client download)
 - squid.conf (customized configuration file for Squid proxy service)
