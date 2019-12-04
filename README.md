@@ -14,9 +14,6 @@ To get started, please follow these steps:
   5) You should see the entire webpage show up, as seen in the presentation.
   6) Follow the steps on the "Project Overview" page to establish/configure our service completely.
 
-Implementation of the service was shared between Sal Trupiano and Travis Thayer.
-Design and implementation of the service information webpage was by Sal Trupiano, edited and updated by Travis Thayer.
-
 Configuration files that are cusomized are located in the "common" folder.
 The following script files in the "common" folder have been customized:
 - ERR_CUSTOMPAGE.html (custom error page for Squid content filtering)
