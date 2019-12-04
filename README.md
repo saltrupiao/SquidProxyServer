@@ -22,4 +22,4 @@ The following script files in the "common" folder have been customized:
 - squid.conf (customized configuration file for Squid proxy service)
 - squidanalyzer.conf (customized configuration file for Squid Analyzer)
 
-All files with customized statements will have a comment with four stars, indicating a summary of what has been changed, and who made the change. 
+All files with customized statements will have a comment with four stars within the code, indicating a summary of what has been changed, and who made the change, as well as citations if the code was sourced from an exterior location.
