@@ -1,3 +1,5 @@
+<!-- Source: https://www.agix.com.au/minimal-transparent-squid-proxy-with-ssl-interception-bumping-on-centos-7/ -->
+
 <?xml version="1.0" encoding="utf-8"?>
 <direct>
 <rule ipv="ipv4" table="nat" chain="PREROUTING" priority="0">-i enp0s3 -p tcp --dport 80 -j REDIRECT --to-ports 3128</rule>
